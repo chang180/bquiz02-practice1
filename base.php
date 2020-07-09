@@ -4,6 +4,8 @@ date_default_timezone_set("Asia/Taipei");
 
 $Total = new DB('total');
 $User = new DB('user');
+$News = new DB('news');
+$Log = new DB('log');
 
 // var_dump($Total->q("SELECT SUM(total) FROM total"));
 if (empty($_SESSION['total'])) {
