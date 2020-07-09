@@ -6,6 +6,7 @@ $Total = new DB('total');
 $User = new DB('user');
 $News = new DB('news');
 $Log = new DB('log');
+$Que= new DB('que');
 
 // var_dump($Total->q("SELECT SUM(total) FROM total"));
 if (empty($_SESSION['total'])) {
